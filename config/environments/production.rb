@@ -5,7 +5,7 @@ Rails.application.configure do
 
   # Code is not reloaded between requests.
 
-  config.hosts << "desafioharrypotter-production.up.railway.app"
+  config.hosts.clear
 
   config.cache_classes = true
 
